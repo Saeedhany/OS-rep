@@ -10,8 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Testing Github action
-        run: pwd
+      - uses: actions/checkout@v3
+      
+        
 
-      - name: Testing Printing
-        run: echo "Saeed"
