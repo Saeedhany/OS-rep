@@ -1,1 +1,22 @@
+on:
+  push:
+    branches:
+      - master
 
+
+
+
+
+
+
+
+  jobs:
+    build:
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: 'Testing Gthub action'
+          run: pwd
+        
+        - name: 'Testing Printing'
+          run: echo Saeed
